@@ -1,0 +1,257 @@
+/*#vistaraTopNav start*/
+#vistaraTopNav .navbar-nav li a{
+	color: #353535;
+	font-size: 14px;
+	padding: 12px;
+	text-shadow: 0 0 0 #A1A1A1;
+	text-transform: uppercase;
+}
+#vistaraTopNav .navbar-nav li.open>a{
+	background: none;
+}
+#vistaraTopNav .navbar-nav li:hover > a,
+#vistaraTopNav .navbar-nav li a:hover{
+	color: #47ae37;
+	background: none;
+}
+#vistaraTopNav .navbar-nav .current_page_ancestor > a, 
+#vistaraTopNav .navbar-nav .current-menu-ancestor > a{
+	color: #47ae37;
+	background: none;
+}
+
+#vistaraTopNav li.contact-btn a {
+	text-transform: capitalize;
+	font-size: 14px;
+	font-weight: 700;
+        font-family: sans-serif;
+	color: #fff;
+	padding: 10px 40px;
+	border-radius: 5px;
+	background: #F24F00;
+	/*background: -moz-linear-gradient(top, #F24F00 0%, #ff6b0b 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F24F00), color-stop(100%,#ff6b0b));
+	background: -webkit-linear-gradient(top, #ff9200 0%,#ff6b0b 100%);
+	background: -o-linear-gradient(top, #F24F00 0%,#ff6b0b 100%);
+	background: -ms-linear-gradient(top, #F24F00 0%,#ff6b0b 100%);
+	background: linear-gradient(to bottom, #F24F00 0%,#ff6b0b 100%);*/
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F24F00', endColorstr='#ff6b0b',GradientType=0 );
+	border-color: transparent;
+}
+#vistaraTopNav li.contact-btn a:hover {
+	background: linear-gradient(to bottom, #fc7c2b 0%, #fd7015 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border-color: transparent;
+	color: #fff;
+	text-decoration: none;
+}
+
+#vistaraTopNav .navbar-nav .sub-arrow,
+#vistaraTopNav .navbar-nav .collapsible .sub-arrow {
+	position:static;
+	margin-top:0;
+	margin-right:0;
+	margin-left:6px;
+	display:inline-block;
+	width:0;
+	height:0;
+	overflow:hidden;
+	vertical-align:middle;
+	border-top:4px solid;
+	border-right:4px dashed transparent;
+	border-bottom:4px dashed transparent;
+	border-left:4px dashed transparent;
+}
+.navbar-fixed-bottom .sub-arrow {
+	margin-top:-5px;
+	border-top:4px dashed transparent;
+	border-bottom:4px solid;
+}
+#vistaraTopNav .navbar-nav ul .sub-arrow {
+	position:absolute;
+	right:0;
+	margin-top:6px;
+	margin-right:15px;
+	border-top:4px dashed transparent;
+	border-bottom:4px dashed transparent;
+	border-left:4px solid;
+}
+#vistaraTopNav .navbar-nav ul a.has-submenu {
+	padding-right:30px;
+}
+.navbar-nav span.scroll-up, .navbar-nav span.scroll-down {
+	position:absolute;
+	display:none;
+	visibility:hidden;
+	height:20px;
+	overflow:hidden;
+	text-align:center;
+}
+#vistaraTopNav .navbar-nav span.scroll-up-arrow, 
+#vistaraTopNav .navbar-nav span.scroll-down-arrow {
+	position:absolute;
+	top:-2px;
+	left:50%;
+	margin-left:-8px;
+	width:0;
+	height:0;
+	overflow:hidden;
+	border-top:7px dashed transparent;
+	border-right:7px dashed transparent;
+	border-bottom:7px solid;
+	border-left:7px dashed transparent;
+}
+#vistaraTopNav .navbar-nav span.scroll-down-arrow {
+	top:6px;
+	border-top:7px solid;
+	border-right:7px dashed transparent;
+	border-bottom:7px dashed transparent;
+	border-left:7px dashed transparent;
+}
+#vistaraTopNav .navbar-nav .collapsible ul .dropdown-menu > li > a,
+#vistaraTopNav .navbar-nav .collapsible ul .dropdown-menu .dropdown-header {
+	padding-left:35px;
+}
+#vistaraTopNav .navbar-nav .collapsible ul ul .dropdown-menu > li > a,
+#vistaraTopNav .navbar-nav .collapsible ul ul .dropdown-menu .dropdown-header {
+	padding-left:45px;
+}
+#vistaraTopNav .navbar-nav .collapsible ul ul ul .dropdown-menu > li > a,
+#vistaraTopNav .navbar-nav .collapsible ul ul ul .dropdown-menu .dropdown-header {
+	padding-left:55px;
+}
+#vistaraTopNav .navbar-nav .collapsible ul ul ul ul .dropdown-menu > li > a,
+#vistaraTopNav .navbar-nav .collapsible ul ul ul ul .dropdown-menu .dropdown-header {
+	padding-left:65px;
+}
+#vistaraTopNav .navbar-nav .dropdown-menu > li > a {
+	white-space:normal;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-bottom: solid 1px #eee;
+	text-transform: capitalize;
+	font-size: 13px;
+}
+#vistaraTopNav .navbar-nav ul.sm-nowrap > li > a {
+	white-space:nowrap;
+}
+#vistaraTopNav ul.dropdown-menu {
+	left:0;
+	right:auto;
+	border-radius: 0;
+	min-width: 200px!important;
+}
+#vistaraTopNav .navbar-nav .collapsible ul {
+	display:none;
+	position:static !important;
+	top:auto !important;
+	left:auto !important;
+	margin-left:0 !important;
+	margin-top:0 !important;
+	width:auto !important;
+	min-width:0 !important;
+	max-width:none !important;
+}
+#vistaraTopNav .navbar-nav .collapsible ul.sm-nowrap > li > a {
+	white-space:normal;
+}
+#vistaraTopNav .navbar-nav .collapsible iframe{
+	display:none;
+}
+#vistaraTopNav .navbar-nav .dropdown-menu > li > a:hover,{
+	background: #687074 !important;
+	color: #fff;
+}
+#vistaraTopNav .navbar-nav .dropdown-menu > li.last > a{
+	border-bottom: none;
+}
+#vistaraTopNav .dropdown-menu > .active > a{
+	background: none;
+	color: #47ae37;
+}
+/*#vistaraTopNav End*/
+.sliderModal{
+	cursor: pointer;
+}
+
+#sliderVideoModal .vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+}
+#sliderVideoModal .vertical-align-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+#sliderVideoModal .modal-content {
+    width:inherit;
+    height:inherit;
+    margin: 0 auto;
+    box-shadow: none;
+	border-radius: 0;
+	border: none;
+	background: none;
+}
+#sliderVideoModal .modal-header{
+	min-height: 0;
+	border-bottom: none;
+}
+#sliderVideoModal .close{
+	opacity: 1;
+}
+#inner-spotlight-new{
+	z-index: 100!important;
+}
+/**
+*about-vistara.php start
+*/
+#contactInAbout h2{
+	margin-top: 0;
+	line-height: 22px;
+}
+#contactInAbout address{
+	margin-top: 40px;
+}
+#contactInAbout address .clearfix{
+	margin-bottom: 20px;
+}
+#contactInAbout address img {
+	float: left;
+	min-width: 41px;
+	margin: 0px 20px 0 0;
+}
+/*about-vistara.php end*/
+a.revsliderLinks{
+	color: #fff!important;
+}
+@media (min-width: 768px){
+	.modal-dialog {
+		width: 854px;
+	}
+	
+}
+@media (max-width: 736px) { 
+	#vistaraTopNav li.contact-btn a{
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: normal;
+		color: #353535;
+		padding: 12px;
+		border: 0;
+		background: none;
+		background-image: none;
+	}
+	#vistaraTopNav li.contact-btn a:hover{
+		color: #47ae37;
+		background: none;
+		background-image: none;	
+	}
+	/*#vistaraTopNav ul.dropdown-menu{
+		display: block;
+		left: auto;
+		right: auto;
+		position: relative;
+		width: 100%;
+		box-shadow: none;
+	}*/
+}
+
